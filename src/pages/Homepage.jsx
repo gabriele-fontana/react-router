@@ -5,7 +5,11 @@ export default function Homepage() {
 
 
 
-    return
+    return(
+        <>
+            <h1>HOMEPAGE</h1>
+        </>
+    )
 
 
 

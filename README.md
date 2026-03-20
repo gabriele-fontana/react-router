@@ -20,3 +20,5 @@ Implementiamo una Navbar visibile in tutte le pagine per navigare tra di esse
 
 Centralizziamo la Navbar usando un componente Layout
 Gestiamo la classe active per i link attivi nella Navbar
+
+slide: 'https://slides.com/teachersboolean/react-routing-ad14c2/fullscreen?token=VUqDch5W#/9'
