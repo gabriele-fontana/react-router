@@ -1,5 +1,5 @@
 
-
+import { NavLink, Link } from "react-router-dom"
 
 export default function AppNavbar() {
 
@@ -16,9 +16,9 @@ export default function AppNavbar() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarID">
                             <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="/"><i className="bi bi-house-fill"></i> Home</a>
-                            <a className="nav-link active" aria-current="page" href="/Products"><i className="bi bi-cart-fill"></i> Products</a>
-                            <a className="nav-link active" aria-current="page" href="/AboutUs"><i className="bi bi-person-fill"></i> About Us</a>
+                            <NavLink className="nav-link" aria-current="page" to="/"><i className="bi bi-house-fill"></i> Home</NavLink>
+                            <NavLink className="nav-link" aria-current="page" to="/Products"><i className="bi bi-cart-fill"></i> Products</NavLink>
+                            <NavLink className="nav-link" aria-current='page' to='/AboutUs'><i className="bi bi-person-fill"></i> About Us</NavLink>
 
                                 
                             </div>
