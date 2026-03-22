@@ -7,7 +7,7 @@ export default function AppNavbar() {
 
     return(
         <>
-                <nav className="navbar navbar-expand-sm navbar-dark bg-primary">
+                <nav className="navbar navbar-expand-sm navbar-dark">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">E-COMMERCE</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarID"

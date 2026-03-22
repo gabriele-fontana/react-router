@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#heroSection{
+    background-image: url(./assets/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+
+    
+}
+
+#reviews{
+    background-color: rgb(92, 168, 133);
+}
+.navbar{
+    background-color:rgb(92, 168, 133) ;
+}
