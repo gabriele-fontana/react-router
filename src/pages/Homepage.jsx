@@ -18,8 +18,8 @@ export default function Homepage() {
                                     Scopri la nostra selezione esclusiva di prodotti pensati per te.
                                     Qualità garantita e spedizione rapida.
                                 </p>
-                                <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                    <Link to="/products" className="btn btn-primary btn-lg px-4 me-sm-3 fw-bold">
+                                <div className="gap-3 d-sm-flex justify-content-sm-center">
+                                    <Link to="/products" className="btn btn-lg px-4 fw-bold" id='btn'>
                                         Start Shopping
                                     </Link>
                                 </div>

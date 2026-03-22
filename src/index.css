@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#btn {
+    background-color: rgb(92, 168, 133);
+}
 #heroSection{
     background-image: url(./assets/hero-bg.jpg);
     background-size: cover;
@@ -19,4 +21,13 @@
 }
 .navbar{
     background-color:rgb(92, 168, 133) ;
+}
+#valuesSection, #missionSection{
+    i, h2{
+        color: rgb(92, 168, 133);
+    }
+}
+
+.product-page{
+    background-color: rgb(241, 241, 241);
 }
