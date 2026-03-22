@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Homepage from "./pages/Homepage"
 import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
-
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 function App() {
