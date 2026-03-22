@@ -1,3 +1,4 @@
+import AppNavbar from "../components/AppNavbar"
 
 
 
@@ -7,7 +8,11 @@ export default function AboutUs() {
 
 
 
-    return
+    return (
+        <>
+            <AppNavbar></AppNavbar>
+        </>
+    )
 
 
 
