@@ -26,7 +26,7 @@ export default function Products(){
                 <h1>Products</h1>
                 <div className="row">
                     {products.map(product => (
-                        <div key={product.id} className="col-md-4">
+                        <div key={product.id} className="col-md-3">
                             <div className="card mb-4">
                                 <img src={product.image} className="card-img-top" alt={product.title} style={{ height: '200px', objectFit: 'contain' }} />
                                 <div className="card-body">
