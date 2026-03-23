@@ -25,7 +25,7 @@ export default function Products(){
             
             <div className="product-page">
                 <div className="container">
-                    <h1>Products</h1>
+                    <header className="header"><h1 className="text-center py-3">Products</h1></header>
                     <div className="row">
                         {products.map(product => (
                             <div key={product.id} className="col-md-6 col-lg-3" >
@@ -34,7 +34,7 @@ export default function Products(){
                                     <div className="card-body">
                                         <h5 className="card-title text-truncate">{product.title}</h5>
                                         <p className="card-text">${product.price}</p>
-                                        <Link className="btn" id='btn' to={`/ProductPage/${product.id}`}>More details</Link>
+                                        <Link className="fw-bold btn" to={`/ProductPage/${product.id}`}>More details</Link>
                                     </div>
                                 </div>
                             </div>
