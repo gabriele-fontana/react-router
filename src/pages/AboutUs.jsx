@@ -10,7 +10,7 @@ export default function AboutUs() {
 
     return (
         <>
-            <AppNavbar></AppNavbar>
+            
             {/* page header */}
             <section className="py-5 bg-dark text-white text-center">
                 <div className="container">

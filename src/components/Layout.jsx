@@ -1,5 +1,5 @@
 
-import Navbar from '/AppNavbarNavbar';
+import Navbar from './AppNavbar';
 
 
 const Layout = ({ children }) => {

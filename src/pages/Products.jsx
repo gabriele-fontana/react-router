@@ -21,7 +21,7 @@ export default function Products(){
 
     return  (
         <>
-            <AppNavbar></AppNavbar>
+            
             <div className="product-page">
                 <div className="container">
                     <h1>Products</h1>

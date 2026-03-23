@@ -7,7 +7,7 @@ export default function Homepage() {
 
     return(
         <>
-            <AppNavbar></AppNavbar>
+            
             <header className="py-5" id='heroSection'>
                 <div className="container px-5">
                     <div className="row gx-5 justify-content-center">
