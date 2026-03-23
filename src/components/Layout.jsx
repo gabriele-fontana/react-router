@@ -1,14 +1,12 @@
 
 import Navbar from './AppNavbar';
+import { Outlet } from 'react-router-dom';
 
-
-const Layout = ({ children }) => {
+const Layout = () => {
     return (
         <div className="app-container">
             <Navbar />
-            <main>
-                {children}
-            </main>
+            <Outlet></Outlet>
             
         </div>
     );
