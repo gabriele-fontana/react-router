@@ -1,5 +1,6 @@
-import AppNavbar from "../components/AppNavbar";
+import { Link } from "react-router-dom";
 import { useState, useEffect, use } from "react";
+
 
 const apiUrl = 'https://fakestoreapi.com/products'
 
@@ -33,6 +34,7 @@ export default function Products(){
                                     <div className="card-body">
                                         <h5 className="card-title text-truncate">{product.title}</h5>
                                         <p className="card-text">${product.price}</p>
+                                        <Link className="btn" id='btn' to={`/ProductPage/${product.id}`}>More details</Link>
                                     </div>
                                 </div>
                             </div>
