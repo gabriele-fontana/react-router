@@ -46,8 +46,8 @@ export default function PoductPage() {
                         </div>
                     </div>
                     <div className="navigation-btns d-flex justify-content-between">
-                        <button className='btn btn-lg' onClick={() => navigateProducts(currentId - 1)}><i class="bi bi-chevron-left"></i></button>
-                        <button className='btn btn-lg' onClick={() => navigateProducts(currentId + 1)}><i class="bi bi-chevron-right"></i></button>
+                        <button className='btn btn-outline-dark btn-lg rounded-circle' onClick={() => navigateProducts(currentId - 1)}><i className="bi bi-chevron-left"></i></button>
+                        <button className='btn btn-outline-dark btn-lg rounded-circle' onClick={() => navigateProducts(currentId + 1)}><i className="bi bi-chevron-right"></i></button>
                     </div>
                 </div>
             ) : (
