@@ -4,20 +4,21 @@ import Homepage from "./pages/Homepage"
 import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
 import 'bootstrap-icons/font/bootstrap-icons.css';
-
+import Layout from "./components/Layout";
 
 function App() {
 
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Homepage />}></Route>
-          <Route path="/AboutUs" element={<AboutUs />}></Route>
-          <Route path="/Products" element={<Products />}></Route>
-        </Routes>
-      </BrowserRouter>
-    </>
+  <BrowserRouter>     
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Homepage />}></Route>
+        <Route path="/AboutUs" element={<AboutUs />}></Route>
+        <Route path="/Products" element={<Products />}></Route>
+      </Routes>
+    </Layout>
+  </BrowserRouter>
+
   )
 
 
